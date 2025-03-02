@@ -1,0 +1,7 @@
+numpber = input("please enter two digits:\n")
+print()
+frist_numpber = int(numpber[0])
+print()
+second_numpber = int(numpber[1])
+print()
+print(frist_numpber+second_numpber)
