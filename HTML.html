@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="XPLD, OPIUM DESIGNER, DESIGNER, 3D ARTIST, OPIUM 3D ARTIST, ARTIST, OPIUM ARTIST, PHOTOGRAPHER, OPIUM PHOTOGRAPHER, ANIMATOR, OPIUM ANIMATOR, ANIMATION, OPIUM ANIMATION , OPIUM, PRODUCER, OPIUM PRODUCER, PROD, OPIUM PROD, RAGE BEATS, OPIUM RAGE BEATS, BEATS, OPIUM BEATS">
+    <meta name="description" content="Unleash The Art of digital Evolution, Explore Our World Of OPIUM Music, Virtuals and Creativity">
+    <meta name="author" content="oda">
+    <title>XPLD</title>
+    <link rel="stylesheet" href="Css.css">
+    <script src="JS.js"></script>
+    <style>
+        .video-overlay {
+            position: absolute;
+            width: 80%;
+            height: 100%;
+            background: transparent;
+            top: 0;
+            left: 10%;
+            z-index: 10;
+        }
+        .video-container {
+            position: relative;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-background"></div>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="XPLD LOGO Ellipse.png" alt="XPLD Logo" class="logo">
+        </div>
+        <nav class="navigation">
+            <button onclick="openOverlay('about')">about</button>
+            <button onclick="window.open('https://www.beatstars.com/xpld6647', '_blank')">beats</button>
+            <button onclick="window.open('https://www.behance.net/XPLD', '_blank')">designs</button>
+        </nav>
+        <h1 class="main-title">XPLD</h1>
+        <p class="subtitle">Unleash The Art of digital Evolution, Explore Our World Of OPIUM Music, Virtuals and Creativity</p>
+    </div>
+    
+    <div id="about" class="overlay">
+        <button class="close-btn" onclick="closeOverlay('about')">X</button>
+        <h2><i>About</i></h2>
+        <h2><i>Real Name : Omar</i></h2>
+        <h2><i>Skills: Graphic Designer, 3D Artist, Producer, Photographer</i></h2>
+        <h2><i>My social media accounts</i></h2>
+        <div class="social-links">
+            <a href="https://x.com/6647Dark" target="_blank">
+                <img src="Twitter_X.png" alt="Twitter/X" width="50">
+            </a>
+            <a href="https://www.instagram.com/_xpld_/?next=%2F" target="_blank">
+                <img src="instagram.png" alt="Instagram" width="50">
+            </a>
+            <a href="https://www.behance.net/omark6647" target="_blank">
+                <img src="whatsapp.png" alt="Behance" width="50">
+            </a>
+            <a href="https://discordapp.com/users/880645239260459048" target="_blank">
+                <img src="discord (1).png" alt="Discord" width="50">
+            </a>
+        </div>        
+    </div>
+    
+    <script>
+        function openOverlay(id) {
+            document.getElementById(id).classList.add('active');
+        }
+        function closeOverlay(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+    </script>
+</body>
+</html>
